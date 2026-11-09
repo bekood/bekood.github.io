@@ -60,6 +60,6 @@ JPG固定特征：
 ---
 ### 截图（对应你assets/img，按需放）
 ![wireshark过滤抓包](/assets/img/qq1.png)
-![WinHex搜索FFD8FF](/assets/img/qq2.png)
-![WinHex置入新文件](/assets/img/qq3.png)
+![WinHex搜索FFD8FF](/assets/img/QQ4.png)
+![WinHex置入新文件](/assets/img/qq7.png)
 ![恢复成功的图片](/assets/img/qq8.png)
