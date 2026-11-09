@@ -62,4 +62,4 @@ JPG固定特征：
 ![wireshark过滤抓包](/assets/img/qq1.png)
 ![WinHex搜索FFD8FF](/assets/img/qq2.png)
 ![WinHex置入新文件](/assets/img/qq3.png)
-![恢复成功的图片](/assets/img/qq4.png)
+![恢复成功的图片](/assets/img/qq8.png)
