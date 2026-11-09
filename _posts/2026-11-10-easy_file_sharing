@@ -20,3 +20,7 @@ Easy File Sharing Web Server 7.2 存在 HEAD 请求 SEH 缓冲区溢出漏洞，
 2. Nmap 版本探测
 ```bash
 nmap -sV 192.168.x.x
+![es](/assets/img/easy_file1.png)
+![es](/assets/img/easy_file2.png)
+![es](/assets/img/easy_file3.png)
+![es](/assets/img/easy_file6.png)
