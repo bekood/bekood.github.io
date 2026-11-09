@@ -1,0 +1,22 @@
+---
+title: Easy File Sharing Web Server 7.2 缓冲区溢出漏洞复现
+date: 2026-11-10
+categories: [Security, Vuln]
+tags: [metasploit, buffer-overflow, seh, exploit-db]
+---
+
+## 概述
+Easy File Sharing Web Server 7.2 存在 HEAD 请求 SEH 缓冲区溢出漏洞，未校验请求长度，攻击者发送构造恶意 HEAD 请求可劫持程序执行流。对应 Exploit-DB POC：`39009.py`。
+
+> ⚠️ 仅内网实验使用，禁止对公网目标测试。
+
+## 实验环境
+- 攻击端：Kali Linux
+- 靶机：Windows 7（Win10/11 默认开启 ASLR、DEP，很难触发弹窗）
+- 靶机服务：Easy File Sharing Web Server 7.2，监听 8000 端口
+
+## 复现流程
+1. 靶机部署软件，启动服务，确认 8000 端口开放。
+2. Nmap 版本探测
+```bash
+nmap -sV 192.168.x.x
